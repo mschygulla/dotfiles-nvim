@@ -79,4 +79,6 @@ Some of the shortcuts I use frequently are listed here. In the following shortcu
 | `<leader>fb`      | Fuzzy buffer switching in a floating window      |
 | `<leader>`        | Keymaps (which-key)                              |
 | `<C-space>`       | Toggle the completion menu                       |
+| `<C-y>`           | Completion menu: select and accept               |
+| `<C-e>`           | Completion menu: hide                            |
 | `<leader>aa`      | Toggle the CopilotChat                           |

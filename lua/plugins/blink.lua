@@ -27,8 +27,6 @@ return {
     -- See :h blink-cmp-config-keymap for defining your own keymap
     keymap = {
       preset = 'default',
-      ['<cr>'] = {'accept'}
-    
     },
 
     appearance = {
