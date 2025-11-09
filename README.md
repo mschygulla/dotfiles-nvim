@@ -77,6 +77,7 @@ Some of the shortcuts I use frequently are listed here. In the following shortcu
 | `<leader>fh`      | Fuzzy help file grepping in a floating window    |
 | `<leader>fg`      | Fuzzy project-wide grepping in a floating window |
 | `<leader>fb`      | Fuzzy buffer switching in a floating window      |
+| `<leader>fd`      | Diagnostics for current buffer                   |
 | `<leader>`        | Keymaps (which-key)                              |
 | `<C-space>`       | Toggle the completion menu                       |
 | `<C-y>`           | Completion menu: select and accept               |
