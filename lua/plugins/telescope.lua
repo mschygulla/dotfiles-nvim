@@ -11,5 +11,15 @@ return {
             { "<leader>fb", "<cmd>Telescope buffers sort_mru=true sort_lastused=true<cr>", desc = "Show Buffers" },
             { "<leader>fh", "<cmd>Telescope help_tags<cr>", desc = "Help Tags" },
         },
+        config = function()
+            require('telescope').setup {
+                extensions = {
+                    ["ui-select"] = {
+                        require("telescope.themes").get_dropdown {},
+                    },
+                },
+            }
+        end,
+
     },
 }

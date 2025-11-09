@@ -6,7 +6,7 @@ return {
         ---@diagnostic disable-next-line: missing-fields
         config.setup({
             auto_install = true,
-            ensure_installed = { "lua", "bash" },
+            ensure_installed = { "lua", "bash", "vimdoc" },
             highlight = { enable = true },
             indent = { enable = true },
         })

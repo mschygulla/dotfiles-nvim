@@ -1,9 +1,8 @@
 vim.opt.timeout = true -- Enable timeout
 vim.opt.timeoutlen = 300 -- Lower than default (1000) to quickly trigger which-key
 
--- Set to true if you have a Nerd Font installed and selected in the terminal
-vim.g.have_nerd_font = true
-
+vim.g.have_nerd_font = true -- Set to true if you have a Nerd Font installed
+vim.opt.background = 'dark' -- set dark background for colorschemes
 vim.opt.termguicolors = true -- Enable 24-bit RGB colour in the TUI
 
 vim.opt.encoding = "utf-8" -- The encoding displayed
